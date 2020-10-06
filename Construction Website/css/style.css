@@ -1,0 +1,500 @@
+/* Font variables */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital@1&family=Anton&family=Cousine:wght@700&family=Kanit:ital,wght@0,600;1,600&family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Oswald:wght@600&family=PT+Sans+Caption&family=Secular+One&display=swap');
+                /* --------------------------------HEADER SECTION ----------------------------------------------------*/
+        /* ----------------Header Top -------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_header{
+    
+}
+.header_top{
+    background-color:#1e2126;
+    line-height: 46px;
+}
+ .left{
+    padding: 0px 106px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 4px;
+    padding: 0px 70px;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+.left a i{
+    padding: 0px 14px;
+}
+
+.right a i{
+    color: white;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+        /*-------------------- Main_Header with Navigation ------------------- */
+
+.main_menu .container .left{
+    display: inline-block;
+}       
+.main_menu .container .left .logo img{
+    width: 90px;
+    margin: 9px 9px;
+    cursor: pointer;
+}
+.main_menu .container .left .name{
+    display: inline-block;
+    position: absolute;
+    width: 204px;
+    top: 65px;
+    left: 200px;
+    font-size: 37px;
+    font-family: 'Kanit', sans-serif;
+    background: -webkit-linear-gradient( black, rgb(247, 247, 47));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.navigation{
+    display: inline-block;
+    width: 50%;
+    margin: 33px 62px;
+    float: right;
+}
+
+.navigation .bar li{
+    display: inline-block;
+}
+.navigation .bar li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+.navigation .bar li a:hover{
+    color: #ffcd00;
+}
+.navigation .bar li a.active{
+    color: #ffcd00;
+}
+ 
+ /* ------------------------------------------------- HEADER ENDES ---------------------------------------- */
+
+ .block .img_area img{
+     height: 100%;
+     width: 100%;
+     content: "";
+     opacity: 0.9;
+     z-index: -1;
+     background-repeat: no-repeat;
+     box-sizing: border-box;
+     
+ }
+ .text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+ }
+ .text h2{
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 150px;
+}
+ 
+ .text h1{
+    font-size: 83px;
+    font-family: 'Secular One', sans-serif;
+    margin: -153px;
+    color: #ffcd00;
+ }
+
+ .get_quote{
+    background-color: #1e2126;
+    margin: -5px 0px;
+    padding: 43px 0px;
+    line-height: 46px;
+ }
+ .quote_container{
+     margin: -20px;
+ }
+ .left_quote{
+     float: left;
+ }
+ .left_quote h4{
+     font-size: 26px;
+     font-family: 'Open Sans', sans-serif;
+     padding: 0px 113px;
+     color: white;
+     margin: 0px 0px;
+     
+ }
+ .right_quote{
+    float: right;
+ }
+ .right_quote a{
+     text-decoration: none;
+    color: white;
+    border: 3px solid #ffcd00;
+    padding: 1px 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    margin: 0px 155px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.right_quote a:hover{
+    background-color: #ffcd00;
+    border: 3px solid black;
+    color: black;
+}
+
+/* -------------------------------- Our Services Area ---------------------- */
+
+.service_name{
+    color: #1e2126;
+    font-size: 34px;
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 12px 89px;
+}
+.service_name:hover{
+    
+    color : #ffcd00;
+    width: 100%;
+    text-shadow: 2px 1.5px #1e2126;
+    text-transform: uppercase;
+}
+.service_container{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    cursor: pointer;
+    
+}
+.item{
+    position: relative;
+}
+.item img{
+    width: 503px;
+    height: 380px;
+}
+#item1 .text1 h2{
+    
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 18%;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-size: 33px;   
+}
+#item1 .read_more a{
+    position: absolute;
+    top: 84%;
+    left: 36%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid #ffcd00;
+}
+#item1 .read_more a:hover{
+    background-color: #ffcd00;
+    color: #1e2126;
+}
+#item2 .text2{
+    
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 18%;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-size: 33px;
+}
+#item2 .read_more a{
+    position: absolute;
+    top: 84%;
+    left: 36%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid #ffcd00;
+}
+#item2 .read_more a:hover{
+    background-color: #ffcd00;
+    color: #1e2126;
+}
+#item3 .text3{
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 18%;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-size: 33px;
+}
+#item3 .read_more a{
+    position: absolute;
+    top: 84%;
+    left: 36%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid #ffcd00;
+}
+#item3 .read_more a:hover{
+    background-color: #ffcd00;
+    color: #1e2126;
+}
+#item4 .text4{
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 33%;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-size: 33px;
+}
+#item4 .read_more a{
+    position: absolute;
+    top: 84%;
+    left: 36%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid #ffcd00;
+}
+#item4 .read_more a:hover{
+    background-color: #ffcd00;
+    color: #1e2126;
+}
+#item5 .text5{
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 18%;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-size: 33px;
+}
+#item5 .read_more a{
+    position: absolute;
+    top: 84%;
+    left: 36%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid #ffcd00;
+}
+#item5 .read_more a:hover{
+    background-color: #ffcd00;
+    color: #1e2126;
+}
+#item6 .text6{
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 33%;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-size: 33px;
+}
+#item6 .read_more a{
+    position: absolute;
+    top: 84%;
+    left: 36%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid #ffcd00;
+}
+#item6 .read_more a:hover{
+    background-color: #ffcd00;
+    color: #1e2126;
+}
+
+ /* ------------------ Who WE ARE Area ------------------ */
+ .who_container{
+     
+     display: flex;
+     height: 530px;
+     width: 99.5%;
+     margin: 114px 0px;
+ }
+ .about{
+     background-color: white;
+     color: #1e2126;
+     text-transform: uppercase;
+ }
+ .about h2{
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 38px 88px;
+    color: #ffcd00;
+    font-size: 50px;
+ }
+ .about p{
+    margin: 0px 88px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: -32px 88px;
+    padding: 34px 0px;
+ }
+ .who_image img{
+     width: 600px;
+     height: 530px;
+ }
+
+ /* <!-- ----------------------------------- Our Projects Area ------------------------ --> */
+
+.project_name{
+    color: #1e2126;
+    font-size: 34px;
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 12px 88px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.nav_project{
+    float: right;
+    margin: 72px 43px;
+}
+.nav_project .project_bar li{
+    display: inline-block;
+}
+.nav_project .project_bar li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px 32px;
+    color: #1e2126;
+}
+.nav_project .project_bar li a:hover{
+    color: #ffcd00;
+    text-decoration: none;
+}
+.nav_project .project_bar li a.active{
+    text-decoration: underline;
+}
+.images{
+    position: relative;
+}
+.image_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.images img{
+    padding: 2px 2px;
+    height: 600px;
+    width: 100%;
+    
+}
+#image1 .work_text1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 1%;
+    left: 9%;
+
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+}
+#image2 .work_text2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+#image3 .work_text3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 1%;
+    left: 0.4%;
+
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+}
+   /* ------------------- Testimonial Area ------------------ */
+.testimonial_name{
+    color: #1e2126;
+    font-size: 34px;
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 12px 88px;
+    text-transform: uppercase;
+}
+.feedback_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+    padding: 0px 14px;
+}
+ .feedback{
+    
+    background-color: #1e2126;
+    color: white;
+    /* border: 3px solid #ffcd00; */
+    box-shadow: 3px 2px #ffcd00;
+    border-radius: 15px 50px 30px;
+    padding: 30px;
+    margin: 0px 36px;
+}
+.feedback h3{
+    font-family: 'Cousine', monospace;
+    margin: -4px 0px;
+    font-size: 24px;
+}  
+.feedback p{
+    font-family: 'Alegreya', serif;
+    padding: 13px 0px;
+    font-size: 18px;
+}
+
+  /* ----------------------------- Footer Area -------------------------- */
+
